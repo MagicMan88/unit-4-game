@@ -1,30 +1,43 @@
 * {
-    box-sizing: border-box
-    };
-
-.card {
-    opacity: .5;
-    font-weight: bold;
+    box-sizing: border-box;
 }
 
-#random-number {
-    font-size: 45px;
-}
-#total-score {
-    font-size: 45px;
-}
+body {
+    background: url(../images/pexels-photo-242236.jpeg) center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
-#rules {
-    font-size: 35px;
-    font-weight: bold;
-    text-align: center;
-}
+  #crystal {
+    opacity: .8;
+  }
 
-#row-1 {
-    margin-right: 15px;
-    margin-left: none;
-}
+  h1, li {
+      font-weight: bold;
+  }
 
-li {
-    font-size: 25px;
-}
+  #random-number {
+      font-weight: bold;
+      font-size: 35px;
+  }
+
+  #wins, #losses {
+      font-weight: bold;
+      font-size: 15px;
+  }
+
+  #col-1 {
+      font-size: 20px;
+      line-height: 30px;
+  }
+
+  .card {
+      opacity: .7;
+  }
+
+  #total-score {
+      font-weight: bold;
+      font-size: 35px;
+  }
